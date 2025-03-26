@@ -2,38 +2,59 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the binary equivalent of the decimal number 39?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "100111",
+        "b": "100111",
+        "c": "110111",
+        "d": "111111"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "moderate"
+    },
+    {
+      "question": "Which part of an IP address identifies the network?",
+      "answers": {
+        "a": "Host ID",
+        "b": "Network ID",
+        "c": "Subnet Mask",
+        "d": "Gateway"
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "How many bits are in an IPv4 address?",
+      "answers": {
+        "a": "32",
+        "b": "64",
+        "c": "128",
+        "d": "256"
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "There are 6 sub-networks in a network. What is the bit size of subnet mask?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "2",
+        "b": "3",
+        "c": "4",
+        "d": "5"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "b",
+      "difficulty": "moderate"
+    },
+    {
+      "question": "What is the subnet mask for an IP range that supports exactly 14 usable hosts per subnet?",
+      "answers": {
+        "a": "255.255.255.248",
+        "b": "255.255.255.240",
+        "c": "255.255.255.224",
+        "d": "255.255.255.192"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }

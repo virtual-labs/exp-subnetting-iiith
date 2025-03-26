@@ -2,38 +2,48 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "This is a Sample Question 1?",
+      "question": "What is the purpose of subnetting?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "To increase available IP addresses",
+        "b": "To divide a large network into smaller networks",
+        "c": "To combine multiple networks",
+        "d": "To slow down network traffic"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
-      },
-      "correctAnswer": "a",
+      "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "This is a Sample Question 2?",
+      "question": "How many usable host addresses are available in a subnet with a /29 mask?",
       "answers": {
-        "a": "answer1",
-        "b": "answer2",
-        "c": "answer3",
-        "d": "answer4"
+        "a": "6",
+        "b": "8",
+        "c": "4",
+        "d": "30"
       },
-      "explanations": {
-        "a": "Explanation 1  <a href='www.google.com'>here</a>",
-        "b": "Explanation 2",
-        "c": "Explanation 2",
-        "d": "Explanation 2"
+      "correctAnswer": "a",
+      "difficulty": "moderate"
+    },
+    {
+      "question": "How many usable host addresses are available in a subnet with a /29 mask?",
+      "answers": {
+        "a": "6",
+        "b": "8",
+        "c": "4",
+        "d": "30"
       },
-      "correctAnswer": "c",
-      "difficulty": "beginner"
+      "correctAnswer": "a",
+      "difficulty": "moderate"
+    },
+    {
+      "question": "You need to divide a network into exactly four equal-sized subnets. Which subnet mask should be used?",
+      "answers": {
+        "a": "255.255.255.128",
+        "b": "255.255.255.192",
+        "c": "255.255.255.224",
+        "d": "255.255.255.240"
+      },
+      "correctAnswer": "b",
+      "difficulty": "advanced"
     }
   ]
 }
