@@ -1,5 +1,3 @@
-# Subnetting
-
 ## Introduction
 - IP addresses are hierarchical and consist of a **network portion** and a **host portion**.
 - The network portion is the same for all devices in a network, while the host portion varies.
@@ -26,4 +24,3 @@
 ### Reference Books
 1. Kurose, J. F., & Ross, K. W. *Computer Networking: A Top-Down Approach*. Pearson.
 2. Tanenbaum, A. S., & Wetherall, D. J. *Computer Networks*. Pearson.
-

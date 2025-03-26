@@ -21,7 +21,7 @@
         "d": "30"
       },
       "correctAnswer": "a",
-      "difficulty": "moderate"
+      "difficulty": "intermediate"
     },
     {
       "question": "How many usable host addresses are available in a subnet with a /29 mask?",
@@ -32,7 +32,7 @@
         "d": "30"
       },
       "correctAnswer": "a",
-      "difficulty": "moderate"
+      "difficulty": "intermediate"
     },
     {
       "question": "You need to divide a network into exactly four equal-sized subnets. Which subnet mask should be used?",

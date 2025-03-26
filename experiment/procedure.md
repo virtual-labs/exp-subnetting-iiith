@@ -13,5 +13,5 @@ The simulation has following 4 sections:
 - Then click on Submit to validate.
 
 ## 4. Practice
-- Fill in the Subnet Mask in 2 bits only.
+- Fill in the Subnet Mask taking into consideration the subnet size.
 - Then click on Submit to validate.

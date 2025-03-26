@@ -10,7 +10,7 @@
         "d": "111111"
       },
       "correctAnswer": "b",
-      "difficulty": "moderate"
+      "difficulty": "intermediate"
     },
     {
       "question": "Which part of an IP address identifies the network?",
@@ -43,7 +43,7 @@
         "d": "5"
       },
       "correctAnswer": "b",
-      "difficulty": "moderate"
+      "difficulty": "intermediate"
     },
     {
       "question": "What is the subnet mask for an IP range that supports exactly 14 usable hosts per subnet?",
