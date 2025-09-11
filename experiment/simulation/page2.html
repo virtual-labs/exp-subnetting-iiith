@@ -23,17 +23,19 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="navbar-nav mr-auto">
           <a class="nav-link " href="./index.html">Binary Numbers</a>
-          <a class="nav-link active" href="./page2.html">IP Address</a>
+          <a class="nav-link active" href="./page2.html">Subnet ID</a>
           <a class="nav-link " href="./page3.html">Subnetting</a>
           <a class="nav-link " href="./page4.html">Practice</a>
       </div>
       </div>
     </nav>
     <br>
-    <h1>What is IP Address?</h1>
-      <h5>IP Address: A unique identifier assigned to each device on a network, typically represented in dotted decimal notation</h5>
+    <h2>Subnet ID</h2>
+      <h5><b>Subnet ID</b> is the portion of the IP address that is designated for <u>identifying a sub-network</u>. It consists of bits "borrowed" from the Host ID and appended to the Network ID.</h5>
       <br>
-      <h5>IP Address has 32 bits. So it can assume 2<sup>32</sup> values.</h5>
+      <h6> <b>Task:</b> Calculate the number of bits required for the <b>Subnet ID</b> to support the given number of subnets. </h6>
+
+      <!-- <h5>IP Address has 32 bits. So it can assume 2<sup>32</sup> values.</h5>
       <h5>IP Address has 2 parts Network ID and Host ID.</h5>
       <table class="table1">
         <thead>
@@ -48,23 +50,23 @@
                 <td>Host ID</td>
             </tr>
           </tbody>
-      </table>
+      </table> -->
       <br>
       <table class="table1">
         <thead>
             <tr>
-                <th scope="col">Number of Networks</th>
-                <th scope="col">Bit size of Network ID</th>
+                <th scope="col">Number of Subnets</th>
+                <th scope="col">Number of bits in <b>Subnet ID</b></th>
             </tr>
         </thead>
         <tbody>
           <tr>
-            <td>4</td>
             <td>2</td>
+            <td>1</td>
           </tr>
           <tr>
-            <td>256</td>
-            <td>8</td>
+            <td>128</td>
+            <td>7</td>
           </tr>
           <tr>
             <td>500</td>

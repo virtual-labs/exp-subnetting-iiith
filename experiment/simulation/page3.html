@@ -24,32 +24,26 @@
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="navbar-nav mr-auto">
           <a class="nav-link " href="./index.html">Binary Numbers</a>
-          <a class="nav-link " href="./page2.html">IP Address</a>
+          <a class="nav-link " href="./page2.html">Subnet ID</a>
           <a class="nav-link active" href="./page3.html">Subnetting</a>
           <a class="nav-link " href="./page4.html">Practice</a>
       </div>
       </div>
     </nav>
     <br>
-      <h1>What is Subnetting?</h1>
-      <h5>
-        Subnetting is a networking technique used to divide an IP network into smaller, more manageable sub-networks called subnets. This process helps in optimizing network performance, improving security, and simplifying network management.</h5>
-      <h4>Componets of Subnet:</h4>
-      <h5>1. <u>IP Address</u></h5>
-      <h5>2. <u>Subnet Mask:</u> A 32-bit binary value (represented in dotted decimal form) that defines the network portion (subnet) and the host portion of an IP address. It uses ones (1) to identify the network bits and zeros (0) to identify the host bits.</h5>
-       <h1>Subnetting Process:</h1> <h5>The process of dividing a network into smaller subnets involves applying the subnet mask to the IP address. This is done using a bitwise AND operation between the IP address and the subnet mask. The resulting value identifies the subnet address, which is shared by all devices within the subnet. The remaining bits identify the specific host within the subnet.</h5>
-        <br>
-        <br>
-      <h6>Consider a IP Address with 8-bits for Network ID and 24-bits for Host ID</h6>
-        <br>
+    
+      <h2>Subnetting</h2>
+      <h5>The circle represents a network which has been divided in <b>4 equal subnets</b>. This will require a <b>Subnet ID of length 2 bits</b>. Out of the 4 subnets, 2 have been assigned the Subnet ID.</h5>
+      <h5><b>Task:</b> Calculate the Subnet IDs for the remaining subnets.</h5>
+
       <div class="container">
         <div class="img_container">
           <!-- <image src="./img/pg3_subnet_mask.svg" alt="" style="max-width: 30%; object-fit: contain;"></image> -->
-          <image src="./images/pg3_subnet_mask.svg" class="svg"></image>
+          <image src="./images/pg3.svg" alt="" class="svg"></image>
           <br><br>
-          <h5>Fill in the Subnet Masks for the Mask1 and Mask2:</h5>
-          <input type="text" class="input-box1" placeholder="Mask1" autocomplete="off" id="p3_input1">
-          <input type="text" class="input-box2" placeholder="Mask2" autocomplete="off" id="p3_input2">
+          <h5>Fill in the <b>Subnet ID</b> for the Subnet 1 and Subnet 2:</h5>
+          <input type="text" class="input-box1" placeholder="Subnet 1" autocomplete="off" id="p3_input1">
+          <input type="text" class="input-box2" placeholder="Subnet 2" autocomplete="off" id="p3_input2">
         </div>
         
       </div>
