@@ -4,14 +4,14 @@ The simulation has following 4 sections:
 - Fill in the Binary representation of the decimal values in 3 bits only.
 - Then click on Submit to validate. 
 
-## 2. IP Address
-- Fill in the bit size required by the Network ID
+## 2. Subnet ID
+- Fill in the number of bits in Subnet ID for given Network requirements.
 - Then click on Submit to validate. 
 
 ## 3. Subnetting
-- Fill in the Subnet Mask in 2 bits only.
+- Fill in the Subnet ID for the subnets.
 - Then click on Submit to validate.
 
 ## 4. Practice
-- Fill in the Subnet Mask taking into consideration the subnet size.
+- Fill in the Subnet ID taking into consideration the subnet size.
 - Then click on Submit to validate.

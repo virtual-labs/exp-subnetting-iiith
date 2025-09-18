@@ -2,58 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the binary equivalent of the decimal number 39?",
+      "question": "What is the purpose of an IP address?",
       "answers": {
-        "a": "100111",
-        "b": "100111",
-        "c": "110111",
-        "d": "111111"
-      },
-      "correctAnswer": "b",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "Which part of an IP address identifies the network?",
-      "answers": {
-        "a": "Host ID",
-        "b": "Network ID",
-        "c": "Subnet Mask",
-        "d": "Gateway"
+        "a": "To provide a physical address for a device.",
+        "b": "To uniquely identify a device on a network.",
+        "c": "To convert binary data into text.",
+        "d": "To encrypt network traffic."
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "How many bits are in an IPv4 address?",
+      "question": "What is dotted decimal notation used for?",
       "answers": {
-        "a": "32",
-        "b": "64",
-        "c": "128",
-        "d": "256"
+        "a": "To make IP addresses more readable for humans.",
+        "b": "To convert decimal numbers to binary.",
+        "c": "To represent hexadecimal values.",
+        "d": "To separate the Network ID from the Host ID."
       },
       "correctAnswer": "a",
       "difficulty": "beginner"
     },
     {
-      "question": "There are 6 sub-networks in a network. What is the bit size of subnet mask?",
+      "question": "Which of the following is the default subnet mask for a Class C IP address?",
       "answers": {
-        "a": "2",
-        "b": "3",
-        "c": "4",
-        "d": "5"
+        "a": "255.0.0.0",
+        "b": "255.255.0.0",
+        "c": "255.255.255.0",
+        "d": "255.255.255.255"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "An IP address `135.20.10.5` falls into which IP address class?",
+      "answers": {
+        "a": "Class A",
+        "b": "Class B",
+        "c": "Class C",
+        "d": "Class D"
       },
       "correctAnswer": "b",
       "difficulty": "intermediate"
     },
     {
-      "question": "What is the subnet mask for an IP range that supports exactly 14 usable hosts per subnet?",
+      "question": "A network with a CIDR prefix of /27 would have how many usable host addresses?",
       "answers": {
-        "a": "255.255.255.248",
-        "b": "255.255.255.240",
-        "c": "255.255.255.224",
-        "d": "255.255.255.192"
+        "a": "30",
+        "b": "32",
+        "c": "28",
+        "d": "62"
       },
-      "correctAnswer": "b",
+      "correctAnswer": "a",
       "difficulty": "advanced"
     }
   ]

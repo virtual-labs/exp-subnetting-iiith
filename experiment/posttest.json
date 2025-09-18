@@ -2,47 +2,58 @@
   "version": 2.0,
   "questions": [
     {
-      "question": "What is the purpose of subnetting?",
+      "question": "What is the binary representation of the decimal number 5 using 3 bits?",
       "answers": {
-        "a": "To increase available IP addresses",
-        "b": "To divide a large network into smaller networks",
-        "c": "To combine multiple networks",
-        "d": "To slow down network traffic"
+        "a": "100",
+        "b": "101",
+        "c": "011",
+        "d": "110"
       },
       "correctAnswer": "b",
       "difficulty": "beginner"
     },
     {
-      "question": "How many usable host addresses are available in a subnet with a /29 mask?",
+      "question": "If you need to create a subnet for 10 hosts, how many bits would you need for the host ID?",
       "answers": {
-        "a": "6",
-        "b": "8",
-        "c": "4",
-        "d": "30"
+        "a": "2 bits",
+        "b": "3 bits",
+        "c": "4 bits",
+        "d": "5 bits"
       },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
+      "correctAnswer": "c",
+      "difficulty": "beginner"
     },
     {
-      "question": "How many usable host addresses are available in a subnet with a /29 mask?",
+      "question": "A network needs to be divided into 4 subnets. How many bits are required for the Subnet ID?",
       "answers": {
-        "a": "6",
-        "b": "8",
-        "c": "4",
-        "d": "30"
-      },
-      "correctAnswer": "a",
-      "difficulty": "intermediate"
-    },
-    {
-      "question": "You need to divide a network into exactly four equal-sized subnets. Which subnet mask should be used?",
-      "answers": {
-        "a": "255.255.255.128",
-        "b": "255.255.255.192",
-        "c": "255.255.255.224",
-        "d": "255.255.255.240"
+        "a": "1",
+        "b": "2",
+        "c": "3",
+        "d": "4"
       },
       "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "In a network with a subnet mask of 255.255.255.240, what is the maximum number of subnets that can be created if the original network had a /24 CIDR prefix?",
+      "answers": {
+        "a": "8",
+        "b": "16",
+        "c": "12",
+        "d": "4"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "You are given the network address 192.168.1.0/26. What is the Subnet ID for the third subnet?",
+      "answers": {
+        "a": "192.168.1.64",
+        "b": "192.168.1.128",
+        "c": "192.168.1.192",
+        "d": "192.168.1.32"
+      },
+      "correctAnswer": "a",
       "difficulty": "advanced"
     }
   ]
