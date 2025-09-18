@@ -1,0 +1,14 @@
+
+/home/runner/work/exp-subnetting-iiith/exp-subnetting-iiith/experiment/simulation/js/main.js
+    4:10  warning  'p2_validate' is defined but never used    no-unused-vars
+   11:46  warning  Unnecessary semicolon                      no-extra-semi
+   20:10  warning  'p3_validate' is defined but never used    no-unused-vars
+   31:50  warning  Unnecessary semicolon                      no-extra-semi
+   43:10  warning  'p4_validate' is defined but never used    no-unused-vars
+   53:42  warning  Unnecessary semicolon                      no-extra-semi
+   68:10  warning  'generateTable' is defined but never used  no-unused-vars
+  108:10  warning  'validateTable' is defined but never used  no-unused-vars
+
+✖ 8 problems (0 errors, 8 warnings)
+  0 errors and 3 warnings potentially fixable with the `--fix` option.
+

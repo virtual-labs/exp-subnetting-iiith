@@ -1,0 +1,60 @@
+{
+  "version": 2.0,
+  "questions": [
+    {
+      "question": "What is the purpose of an IP address?",
+      "answers": {
+        "a": "To provide a physical address for a device.",
+        "b": "To uniquely identify a device on a network.",
+        "c": "To convert binary data into text.",
+        "d": "To encrypt network traffic."
+      },
+      "correctAnswer": "b",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "What is dotted decimal notation used for?",
+      "answers": {
+        "a": "To make IP addresses more readable for humans.",
+        "b": "To convert decimal numbers to binary.",
+        "c": "To represent hexadecimal values.",
+        "d": "To separate the Network ID from the Host ID."
+      },
+      "correctAnswer": "a",
+      "difficulty": "beginner"
+    },
+    {
+      "question": "Which of the following is the default subnet mask for a Class C IP address?",
+      "answers": {
+        "a": "255.0.0.0",
+        "b": "255.255.0.0",
+        "c": "255.255.255.0",
+        "d": "255.255.255.255"
+      },
+      "correctAnswer": "c",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "An IP address `135.20.10.5` falls into which IP address class?",
+      "answers": {
+        "a": "Class A",
+        "b": "Class B",
+        "c": "Class C",
+        "d": "Class D"
+      },
+      "correctAnswer": "b",
+      "difficulty": "intermediate"
+    },
+    {
+      "question": "A network with a CIDR prefix of /27 would have how many usable host addresses?",
+      "answers": {
+        "a": "30",
+        "b": "32",
+        "c": "28",
+        "d": "62"
+      },
+      "correctAnswer": "a",
+      "difficulty": "advanced"
+    }
+  ]
+}
