@@ -14,84 +14,71 @@
     
     <title>Subnetting</title>
   </head>
-  <style>
-    .content{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
 
-  </style>
   <body class="body">
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-left: 1%;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="navbar-nav mr-auto">
-          <a class="nav-link active" href="./index.html">Binary Numbers</a>
-          <a class="nav-link " href="./page2.html">Subnet ID</a>
+          <a class="nav-link " href="./index.html">Binary Numbers</a>
+          <a class="nav-link active" href="./page2.html">Subnet ID</a>
           <a class="nav-link " href="./page3.html">Subnetting</a>
           <a class="nav-link " href="./page4.html">Practice</a>
       </div>
       </div>
     </nav>
     <br>
-      <div class="content">
-        <table class="table1">
-          <thead>
+    <h2>Subnet ID</h2>
+      <h5><b>Subnet ID</b> is the portion of the IP address that is designated for <u>identifying a sub-network</u>. It consists of bits "borrowed" from the Host ID and appended to the Network ID.</h5>
+      <br>
+      <h6> <b>Task:</b> Calculate the number of bits required for the <b>Subnet ID</b> to support the given number of subnets. </h6>
+
+      <!-- <h5>IP Address has 32 bits. So it can assume 2<sup>32</sup> values.</h5>
+      <h5>IP Address has 2 parts Network ID and Host ID.</h5>
+      <table class="table1">
+        <thead>
             <tr>
-              <th scope="col">Decimal</th>
-              <th scope="col">Binary</th>
+              <th scope="col">(n) bits</th>
+              <th scope="col">(32-n) bits</th>
             </tr>
           </thead>
           <tbody>
             <tr>
-              <td>0 →</td>
-              <td>00</td>
-            </tr>
-            <tr>
-              <td>1 →</td>
-              <td>01</td>
-            </tr>
-            <tr>
-              <td>2 →</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>3 →</td>
-              <td>11</td>
+                <td>Network ID</td>
+                <td>Host ID</td>
             </tr>
           </tbody>
-        </table>
-        <hr style="width:75%", color=black>
-        <p style="margin: 0 10px 0 10px;"> <b>Task:</b> For the numbers in table below, give binary forms in 3 digts </p>
-
-        <table class="table1">
-          <thead>
+      </table> -->
+      <br>
+      <table class="table1">
+        <thead>
             <tr>
-              <th scope="col" >Decimal</th>
-              <th scope="col" >Binary</th>
-              <th scope="col" >Decimal</th>
-              <th scope="col" >Binary</th>
+                <th scope="col">Number of Subnets</th>
+                <th scope="col">Number of bits in <b>Subnet ID</b></th>
             </tr>
-          </thead>
+        </thead>
+        <tbody>
+          <tr>
+            <td>2</td>
+            <td>1</td>
+          </tr>
+          <tr>
+            <td>128</td>
+            <td>7</td>
+          </tr>
+          <tr>
+            <td>500</td>
+            <td><input type="text" id="p2_input" placeholder=""></td>
+          </tr>
+        </tbody>
+      </table>
+      <br>
+      <button class="btn" onclick="p2_validate()">Submit</button>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
 
-          <tbody id="tableBody" class="table1">
-                
-          </tbody>
-        </table>
-        <br>
-        <button class="btn" onclick="validateTable()">Submit</button>
-      </div>
-      
-      </body>
-
-<script src="./js/main.js"></script>
-<script>
-  generateTable(); // Generate the table on page load
-</script>
+  <script src="./js/main.js"></script>
 
 </html>

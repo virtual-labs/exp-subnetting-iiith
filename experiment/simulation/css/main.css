@@ -1,1 +1,53 @@
-/* You CSS goes in here */
+@import url(style_media.css);
+
+/* .vlab-colors {
+  green: #98CB3B;
+  dark-blue: #176696;
+  lighter-dark-blue: #2C9AD1;
+  grey: #96A0A3;
+  white: #FFFFFF;
+} */
+
+body {
+  background-color: #ffffff;
+  margin: 3%;
+}
+
+.table1 {
+  border: 1px solid black;
+}
+
+td,
+th {
+  border: none; /* Remove default borders */
+  box-shadow: inset 0px 0px 0px 1px black; /* Creates an inset black shadow for an inner border effect */
+  padding: 5px; /* Optional padding to separate content from the inner border */
+}
+
+.container {
+  position: relative;
+  width: -webkit-fill-available;
+  height: -webkit-fill-available;
+}
+
+.btn {
+  background-color: #2C9AD1;
+  border-color: #176696;
+  color: white;
+
+}
+.btn:hover {
+  background-color: #5ac8ff;
+  border-color: #176696;
+  color: rgb(0, 0, 0);
+}
+.btn:active {
+  background-color: #5ac8ff;
+  border-color: #176696;
+  color: rgb(0, 0, 0);
+}
+
+.svg{
+  max-width: 30%;
+  object-fit: contain;
+}

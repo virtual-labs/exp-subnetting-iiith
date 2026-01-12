@@ -13,85 +13,47 @@
     <link rel="stylesheet" href="./css/main.css" />
     
     <title>Subnetting</title>
+
   </head>
-  <style>
-    .content{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        align-items: center;
-    }
 
-  </style>
-  <body class="body">
-
+  <body class="body" style="margin: 3%;">
     <nav class="navbar navbar-expand-lg navbar-light bg-light" style="padding-left: 1%;">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarText">
         <div class="navbar-nav mr-auto">
-          <a class="nav-link active" href="./index.html">Binary Numbers</a>
+          <a class="nav-link " href="./index.html">Binary Numbers</a>
           <a class="nav-link " href="./page2.html">Subnet ID</a>
-          <a class="nav-link " href="./page3.html">Subnetting</a>
+          <a class="nav-link active" href="./page3.html">Subnetting</a>
           <a class="nav-link " href="./page4.html">Practice</a>
       </div>
       </div>
     </nav>
     <br>
-      <div class="content">
-        <table class="table1">
-          <thead>
-            <tr>
-              <th scope="col">Decimal</th>
-              <th scope="col">Binary</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>0 →</td>
-              <td>00</td>
-            </tr>
-            <tr>
-              <td>1 →</td>
-              <td>01</td>
-            </tr>
-            <tr>
-              <td>2 →</td>
-              <td>10</td>
-            </tr>
-            <tr>
-              <td>3 →</td>
-              <td>11</td>
-            </tr>
-          </tbody>
-        </table>
-        <hr style="width:75%", color=black>
-        <p style="margin: 0 10px 0 10px;"> <b>Task:</b> For the numbers in table below, give binary forms in 3 digts </p>
+    
+      <h2>Subnetting</h2>
+      <h5>The circle represents a network which has been divided in <b>4 equal subnets</b>. This will require a <b>Subnet ID of length 2 bits</b>. Out of the 4 subnets, 2 have been assigned the Subnet ID.</h5>
+      <h5><b>Task:</b> Calculate the Subnet IDs for the remaining subnets.</h5>
 
-        <table class="table1">
-          <thead>
-            <tr>
-              <th scope="col" >Decimal</th>
-              <th scope="col" >Binary</th>
-              <th scope="col" >Decimal</th>
-              <th scope="col" >Binary</th>
-            </tr>
-          </thead>
-
-          <tbody id="tableBody" class="table1">
-                
-          </tbody>
-        </table>
-        <br>
-        <button class="btn" onclick="validateTable()">Submit</button>
+      <div class="container">
+        <div class="img_container">
+          <!-- <image src="./img/pg3_subnet_mask.svg" alt="" style="max-width: 30%; object-fit: contain;"></image> -->
+          <image src="./images/pg3.svg" alt="" class="svg"></image>
+          <br><br>
+          <h5>Fill in the <b>Subnet ID</b> for the Subnet 1 and Subnet 2:</h5>
+          <input type="text" class="input-box1" placeholder="Subnet 1" autocomplete="off" id="p3_input1">
+          <input type="text" class="input-box2" placeholder="Subnet 2" autocomplete="off" id="p3_input2">
+        </div>
+        
       </div>
-      
-      </body>
+        <br><br>
+      <button class="btn" onclick="p3_validate()">Submit</button>
+      <br><br>
 
-<script src="./js/main.js"></script>
-<script>
-  generateTable(); // Generate the table on page load
-</script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  </body>
+
+  <script src="./js/main.js"></script>
 
 </html>

@@ -1,0 +1,20 @@
+@media only screen and (max-width: 768px) {
+    input {
+        width: 70px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    h5 {
+        font-size: 15px;
+        font-weight: 450;
+    }
+
+    .svg{
+        max-width: 70% !important;
+        object-fit: contain;
+    }
+    
+}
